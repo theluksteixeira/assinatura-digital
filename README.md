@@ -2,7 +2,7 @@
 
 ### `yarn start`
 
-O projeto consiste em disponibilizar a possibilidade de um usuário poder fazer sua assinatura. 
+O projeto consiste em disponibilizar ao usuário assinar digitalmente. 
 
 Documentação:
 https://www.npmjs.com/package/react-signature-canvas
