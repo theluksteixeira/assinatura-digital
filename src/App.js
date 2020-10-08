@@ -7,10 +7,11 @@ function App() {
     let sigPad = {};
     const clear = () => {
         sigPad.clear();
+        setState({trimmedDataURL: null});
     };
     const trim = () => {
         setState({ trimmedDataURL: sigPad.getTrimmedCanvas().toDataURL("image/png") });
-        console.log(sigPad.getTrimmedCanvas().toDataURL("image/png"));
+        console.log(sigPad.getTrimmedCanvas().toDataURL("image/png")); //imagem em base64
     };
     return (
         <div className="App">
