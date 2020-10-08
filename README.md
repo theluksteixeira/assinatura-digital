@@ -21,6 +21,8 @@ https://agilgur5.github.io/react-signature-canvas/
 O projeto foi feito com a seguinte tecnologia:
 
 - [ReactJS](https://pt-br.reactjs.org/)
+- HTML
+- CSS
 
 ## :zap: Executando o Projeto
 yarn start
